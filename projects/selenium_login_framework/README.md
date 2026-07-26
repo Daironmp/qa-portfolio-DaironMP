@@ -108,7 +108,12 @@ Durante este proyecto reforcé conocimientos sobre:
 - Configuración reutilizable mediante archivos de configuración.
 - Buenas prácticas de automatización.
 
----
+## Video demostración
+
+En este video explico la estructura del proyecto, la implementación del patrón **Page Object Model (POM)** y la ejecución de las pruebas automatizadas.
+
+**Ver video:** https://drive.google.com/file/d/12FPLQ2NAy8lmi8ZxNbQirmxDs4nqGzsZ/view?usp=sharing **Ver video:**  
+
 
 ## Autor
 
