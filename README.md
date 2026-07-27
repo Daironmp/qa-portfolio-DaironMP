@@ -1,6 +1,6 @@
 # Hola, soy Dairon Manzo
 
-**QA Engineer Jr.** especializado en pruebas Manuales, API Testing,He colaborado en proyectos ágiles ejecutando pruebas funcionales y adquiriendo experiencia práctica en automatización básica de pruebas con Python, Selenium WebDriver y Pytest.
+**QA Engineer Jr.** especializado en pruebas Manuales, API Testing, He colaborado en proyectos ágiles ejecutando pruebas funcionales y adquiriendo experiencia práctica en automatización básica de pruebas con Python, Selenium WebDriver y Pytest.
 Actualmente desarrollo proyectos inspirados en escenarios reales para demostrar mis habilidades.
 
 ---
