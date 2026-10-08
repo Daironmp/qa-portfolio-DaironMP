@@ -24,7 +24,7 @@ Actualmente desarrollo proyectos inspirados en escenarios reales para fortalecer
 | Proyecto | Descripción | Tecnologías | Estado |
 | :--- | :--- | :--- | :--- |
 | **Selenium Login Framework** | Framework de automatización web utilizando Page Object Model | Python · Selenium · Pytest | ✅ Finalizado |
-| **ReqRes API Testing** | Pruebas automatizadas de servicios REST simulando escenarios reales | Postman · Newman | 🚧 En desarrollo |
+| **API Petstore QA Automation** | Proyecto de automatización de pruebas de API para validar el endpoint POST /v2/pet de Swagger Petstore, utilizando escenarios positivos y negativos | Python · Pytest · Requests · REST API · Git · GitHub | ✅ Finalizado |
 
 
 
