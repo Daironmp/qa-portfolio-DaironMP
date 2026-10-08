@@ -31,10 +31,13 @@ La API responde con HTTP `200 OK` y devuelve:
     "status": "sold123"
 }
 ```
+### Evidencia 
 
+<img alt="Evidencia BUG-001" src="evidence/BUG-001-invalid-status.png" width="800"/>
 
 
 ## BUG-002 — API acepta una mascota sin el campo `name`
+
 
 - **Severidad:** Media
 - **Prioridad:** Media
@@ -65,7 +68,9 @@ La API responde con HTTP `200 OK` y crea la mascota sin el campo `name`.
 ```text
 XFAIL (BUG-002: API acepta una mascota sin el campo name)
 ```
+### Evidencia: 
 
+<img alt="Evidencia BUG-002" src="evidence/BUG-002-acepta-mascota-sin-name.PNG" width="800"/>
 
 ## BUG-003 — API acepta un body vacío
 
@@ -101,6 +106,10 @@ La API responde con HTTP `200 OK` y devuelve una mascota con un `id` y listas va
 }
 ```
 
+### Evidencia
+
+<img alt="Evidencia BUG-003" src="evidence/BUG-003-body-vacío.PNG" width="800"/>
+
 ## BUG-004 — API devuelve error 500 ante un `id` con tipo de dato inválido
 
 - **Severidad:** Alta
@@ -134,6 +143,10 @@ La API responde con HTTP `500 Internal Server Error`:
     "message": "something bad happened"
 }
 ```
+### Evidencia
+
+<img alt="Evidencia BUG-004" src="evidence/BUG-004-la-api-responde500-ante-un-dato-invalido.PNG" width="800"/>
+
 
 ## BUG-005 — API acepta un `status` vacío
 
@@ -166,3 +179,6 @@ La API responde con HTTP `200 OK` y devuelve:
     "status": ""
 }
 ```
+### Evidencia
+
+<img alt="Evidencia BUG-005" src="evidence/BUG-005-la-api-devuelve200ok-con-status-vacío.PNG" width="800"/>
