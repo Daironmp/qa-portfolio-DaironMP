@@ -30,6 +30,7 @@ La API responde con HTTP `200 OK` y devuelve:
 {
     "status": "sold123"
 }
+```
 
 
 
