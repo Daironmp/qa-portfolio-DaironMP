@@ -64,7 +64,7 @@ La API responde con HTTP `200 OK` y crea la mascota sin el campo `name`.
 
 ```text
 XFAIL (BUG-002: API acepta una mascota sin el campo name)
-
+```
 
 
 ## BUG-003 — API acepta un body vacío
@@ -99,7 +99,7 @@ La API responde con HTTP `200 OK` y devuelve una mascota con un `id` y listas va
     "photoUrls": [],
     "tags": []
 }
-
+```
 
 ## BUG-004 — API devuelve error 500 ante un `id` con tipo de dato inválido
 
@@ -133,7 +133,7 @@ La API responde con HTTP `500 Internal Server Error`:
     "type": "unknown",
     "message": "something bad happened"
 }
-
+```
 
 ## BUG-005 — API acepta un `status` vacío
 
@@ -165,3 +165,4 @@ La API responde con HTTP `200 OK` y devuelve:
 {
     "status": ""
 }
+```
